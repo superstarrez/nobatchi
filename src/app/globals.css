@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff8ee;
+  color: #14213d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #2bbef3;
+  color: #ffffff;
+}
+
+/* Custom scrollbar for gallery/filter chips row */
+.scrollbar-thin::-webkit-scrollbar {
+  height: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: rgba(20, 33, 61, 0.15);
+  border-radius: 999px;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}

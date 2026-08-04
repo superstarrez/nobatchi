@@ -1,0 +1,9 @@
+import { SalonGridSkeleton } from "@/components/ui/LoadingSkeleton";
+
+export default function Loading() {
+  return (
+    <div className="mx-auto max-w-[1180px] px-5 py-16">
+      <SalonGridSkeleton count={6} />
+    </div>
+  );
+}
