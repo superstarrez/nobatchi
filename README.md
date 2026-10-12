@@ -2,7 +2,7 @@
 
 A Persian-first salon discovery and appointment-booking prototype built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.
 
-[Live demo](https://nobatchi-uois.vercel.app)
+[Live demo](https://nobatchi-s92o.vercel.app/)
 
 ## What it includes
 
@@ -52,8 +52,4 @@ src/
 
 ## Prototype scope
 
-This project is a front-end prototype. Salon, service, availability, and review data are mock data; there is no production database or booking API. Sign-in and SMS/OTP screens are visual flows and do not send messages.
-
-## Deployment
-
-The project is configured for Vercel. Import this repository and use the default Next.js build settings.
+This is a front-end prototype. Salon, service, availability, and review data are mock data; there is no production database or booking API. The live demo does not process real bookings. Sign-in and SMS/OTP screens are visual flows and do not send messages.
